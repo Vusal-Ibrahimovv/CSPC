@@ -28,3 +28,12 @@ Create the environment for a given lab:
 
 
 Branch and merge practised in Lab A.
+
+
+## PW1 --- Lab B: Data, Plotting, and Automation
+
+**Data comparison:**
+The observed decay data from `decay_observed.csv` matches the analytical exponential decay law: N(t) = N0 * e^(-0.3 * t).
+
+**Automation with Snakemake:**
+The Snakemake rule automates generating `figure.png` from `decay_observed.csv` using `plot.py`.

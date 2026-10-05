@@ -26,3 +26,5 @@ Create the environment for a given lab:
 - The hardest part was the first push: it failed because I had accidentally committed the 188 MB Miniconda installer (GitHub's limit is 100 MB), and my remote URL was also wrong. I removed the file from the history and fixed the URL.
 - I learned that GitHub needs a personal access token instead of a password, that .gitignore and `git status` should be checked before `git add .`, and that vectorised code is much faster than loops.
 
+
+Branch and merge practised in Lab A.

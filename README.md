@@ -37,3 +37,13 @@ The observed decay data from `decay_observed.csv` matches the analytical exponen
 
 **Automation with Snakemake:**
 The Snakemake rule automates generating `figure.png` from `decay_observed.csv` using `plot.py`.
+
+
+
+## PW2 --- Lab A: Motion from Tracking Data
+
+**Results:**
+- **Mean acceleration:** -8.58 m/s² (shows the object is falling under gravity).
+- **Standard deviation:** 28.72 m/s² (shows the acceleration jumps around a lot).
+- **Why acceleration is noisy:** Finding derivatives compares nearby points, which makes tiny errors in position look huge in acceleration.
+- **Integration recovery:** Integrating adds values together, which cancels out random errors. It restored the position with less than 0.8 m difference.

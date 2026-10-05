@@ -47,3 +47,18 @@ The Snakemake rule automates generating `figure.png` from `decay_observed.csv` u
 - **Standard deviation:** 28.72 m/s² (shows the acceleration jumps around a lot).
 - **Why acceleration is noisy:** Finding derivatives compares nearby points, which makes tiny errors in position look huge in acceleration.
 - **Integration recovery:** Integrating adds values together, which cancels out random errors. It restored the position with less than 0.8 m difference.
+
+
+
+## PW2 --- Lab B: Optimization in Chemistry
+
+**Results:**
+- **Optimization Methods (Part 2):**
+  - For the simple function f(x), all three methods (Gradient Descent, Newton, SLSQP) easily found the minimum at x = 3.
+  - For the harder function g(x), the starting point x0 made a big difference. Starting at x0 = 0 got Newton method stuck on a local maximum, but starting at x0 = 2 gave the correct minimum. SLSQP worked well in both cases.
+- **Reaction Kinetics (Part 3):**
+  - Found the rate constant k around 0.25 1/s.
+- **Chemical Equilibrium (Part 4):**
+  - Both Newton and SLSQP showed that the reaction reached equilibrium at x around 0.78 (or 0.66 depending on K), where H2 and I2 form HI.
+- **Titration (Part 5):**
+  - Found the equivalence point at V around 50 mL, which matches the highest peak on the pH slope graph.
